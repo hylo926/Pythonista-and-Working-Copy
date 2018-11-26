@@ -5,8 +5,7 @@
 
 import appex, os, shutil
 
-from_wc = os.path.abspath(os.path.expanduser('from Working Copy'))
-
+from_wc = os.path.abspath(os.path.expanduser('~/Documents/from Working Copy'))
 
 def main():
     if appex.is_running_extension():
